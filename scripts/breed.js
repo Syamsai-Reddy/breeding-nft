@@ -50,12 +50,12 @@ async function main() {
     // await mintNFT(contract)
     await getNFTs(contract)
 
-    // await breedNft(contract, 1, 2)
-    // await getNFTs(contract)
+    //await breedNft(contract, 1, 2)
+    //await getNFTs(contract)
 
     // await getBreededNFTs(contract)
-    // await getNFTParentsOf(contract, 3)
-    // await getNFT(contract, 3)
+    // await getNFTParentsOf(contract, 0)
+    await getNFT(contract, 3)
   } catch (error) {
     console.error('Unhandled error:', error)
   }
